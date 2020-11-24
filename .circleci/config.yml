@@ -1,5 +1,4 @@
----
-version: ""
+version: 2.1
 services:
   code-server:
     image: ghcr.io/linuxserver/code-server
@@ -16,6 +15,3 @@ services:
     ports:
       - 8443:8443
     restart: unless-stopped
-
-    jobs:
-      -ghcr.io/linuxserver/code-server
